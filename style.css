@@ -1,0 +1,38 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+.mymain-bg{
+    background-color: black;
+}
+
+.sub-bg {
+    background-color: darkgrey;
+}
+
+@media (min-width: 768px) {
+    .news-letter {
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
