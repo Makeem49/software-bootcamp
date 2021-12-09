@@ -56,7 +56,7 @@
                     <h1 class="text-light">Become <span class="text-warning d-block">a Web Devloper in 2022</span></h1>
                     <p class="lead mt-3 text-light">We focus on teaching our students the fundamentals of the latest
                         and greatest technologies to prepare them for their first dev role</p>
-                    <button class="btn btn-primary btn-lg mt-4">Start Course</button>
+                    <button class="btn btn-primary btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Start Enrollment Process</button>
                 </div>
                 <div class="col-12 col-md-6 ms-auto pt-4  d-sm-block">
                     <img src="/images/showcase.svg" class="img-fluid" alt="">
@@ -388,6 +388,41 @@
         </div>
     </section>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Fill out this form and we'll get back to you.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">First Name:</label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="last-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="col-form-label">Phone:</label>
+                            <input type="number" class="form-control" id="password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Footer -->
     <footer class="fixed-bootm bg-dark py-5 text-light d-flex justify-content-center position-relative">
@@ -404,10 +439,10 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-        <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
 
     <script src="/index.js">
-        
+
     </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
